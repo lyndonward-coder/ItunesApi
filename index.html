@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lyndon's Music Central</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id = 'h1'>Lyndon's Music Central</h1>
+    <input type ="text " class="center-block" placeholder="Enter Artist Name" id="artist" style="position: relative;" required>
+    <select id = 'number' class="center-block">
+        <option value='10'> 10 </option>
+        <option value='25'> 25 </option>
+        <option value='50'> 50 </option>
+    </select>
+
+    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="run()">Search for Artist</button>
+
+    <table style="border:2px solid black;margin-left:auto;margin-right:auto;" id="output" border="1"></table>
+
+</body>
